@@ -33,11 +33,10 @@ Ha d'incloure l'estructura de la web i una descripció dels continguts que
 s'hi representen en cadascuna de les pàgines.
 
 ## Disseny web responsiu
-Explica com has fet (alguna tècnica) per a que la teva web s'adapti a diferents dispositius; com has gestionat la resolució de les imatges; si has tingut en compte criteris d'accessibilitat per a fer que la web sigui utilitzable per a tots els públics, etc.
+Per poder mantenir una visualització óptima de la web en diferents dispositius s'ha utilitzat responsive per a que es visualitzi bé tant a pantalles mobils, de tauletes o ordenadors.
 
 ## Catografia
-Com s'han integrat i elaborat els mapes que apareixen a la web.
+Els mapes, un està cirectament extret del google maps, amb la particularitat que canvia la visualització depnent de la LEGO STORE sel·leccionada, i el segon, està fet a mà mitjançant QGis, i a traves d'un pluguin s'ha exportat el mapa per poder-lo introduir a la web.
 
 ## Dificultats/millores
-Fes una reflexió proactiva sobre el producte elaborat, que inclogui les 
-dificulats identificades durant el desenvolupament de la web o la cartografia i les millores que es podrien implementar a futur.
+Les dificultats són molt diverses, algunes són la impossibilitat de mostrar tota la informació desitjada en els popups del mapa, o també problemes per aliniar text o quadres.

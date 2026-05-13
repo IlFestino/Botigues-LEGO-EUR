@@ -1,9 +1,48 @@
-<iframe
-    width="100%"
-    height="600px"
-    frameborder="0"
-    scrolling="no"
-    marginheight="0"
-    marginwidth="0"
-    src="./maps/map1/index.html"
-></iframe>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mapes | Botigues LEGO EUR®</title>
+        <link rel="stylesheet" href="css/main.css"/>
+    </head>
+    <body>
+        <header class="mainHeader">
+            <a href="index.html"><img src="images/brand-lego.svg" class="homeLogo" alt="Lego logo"/></a>
+            <ul class="headerNav">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="contact.html" target="_self">Contacte</a></li>
+                <li><a href="locations.html" target="_self">Localitzacions</a></li>
+                <li><a href="media.html" target="_self">Media</a></li>
+                <li><a href="about-lego.html" target="_self">Sobre LEGO</a></li>
+                <li><a class="active" href="map1.html" target="_self">Mapes</a></li>
+            </ul>
+        </header>
+
+        <main class="mainContent">
+            <section class="heroSection">
+                <div class="heroText">
+                    <p class="eyebrow">Mapes per a cada país</p>
+                    <h1>Les teves LEGO STORE a Europa</h1>
+                    <p class="heroDescription">En aquest espai es presenta un mapa interactiu amb el que pots veure les diferents LEGO STORE presents en diferents països europeus.
+                        <span class="alert-note">Nota: pel moment, només està disponible el següent país: Espanya. Estem treballant per ampliar aquesta secció, gràcies.</span>
+                    </p>
+                </div>
+                <div class="heroCard">
+                    <img src="images/mapa_continent_europeu.png" alt="LEGO House Vista Exterior" style="width: 100%; height: auto; border-radius: 8px;"/>
+                </div>
+            </section>
+
+            <section class="contentSection">
+                <div class="sectionHeading">
+                    <p class="eyebrow">Mapes</p>
+                    <h2>Mapa interactiu d'Espanya</h2>
+                </div>
+                <iframe src="./maps/map1/index.html" width="100%" height="700" frameborder="0" scrolling="no" style="border:none; min-height:700px;"></iframe>
+            </section>
+        </main>
+
+        <footer class="mainFooter">
+            <p>&copy; 2026 Botigues LEGO EUR. Tots els drets reservats.</p>
+            <span class="back-to-start"><a href="#" class="go-to-top">Tornar a dalt</a></span>
+        </footer>
+    </body>
+</html>

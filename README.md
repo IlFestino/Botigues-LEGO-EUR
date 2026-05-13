@@ -33,7 +33,7 @@ Ha d'incloure l'estructura de la web i una descripció dels continguts que
 s'hi representen en cadascuna de les pàgines.
 
 ## Disseny web responsiu
-Per poder mantenir una visualització óptima de la web en diferents dispositius s'ha utilitzat responsive per a que es visualitzi bé tant a pantalles mobils, de tauletes o ordenadors.
+Per poder mantenir una visualització óptima de la web en diferents dispositius s'han utilitzat metodes responsive per a que es visualitzi bé tant a pantalles mobils, de tauletes com ordenadors. Alguns exemples són Media Queries, Diseny fluid o imatges i multimedia flexible. 
 
 ## Catografia
 Els mapes, un està cirectament extret del google maps, amb la particularitat que canvia la visualització depnent de la LEGO STORE sel·leccionada, i el segon, està fet a mà mitjançant QGis, i a traves d'un pluguin s'ha exportat el mapa per poder-lo introduir a la web.
